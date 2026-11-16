@@ -78,6 +78,8 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
+> **Nota sobre Google Colab.** Los notebooks se desarrollaron en Colab y leen y escriben en `/content/drive/MyDrive/spam_tesis`. Para ejecutarlos en local basta con cambiar esa ruta base por la carpeta del repositorio: los cinco conjuntos ya están incluidos en `data/` y las salidas se generan en `results/`.
+
 ## Autores
 
 Trabajo de diploma realizado por los dos autores principales del proyecto, en la Facultad de Ciberseguridad de la Universidad de las Ciencias Informáticas (UCI).
