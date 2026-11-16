@@ -2,6 +2,8 @@
 
 **Proyecto de tesis · Ingeniería en Ciberseguridad · Universidad de las Ciencias Informáticas (UCI), 2026**
 
+**Autores:** Jayson Ceballos Hernández y Alejandro Vázquez Marrero
+
 Comparación de cinco enfoques de clasificación supervisada —Naive Bayes, SVM con kernel RBF, Random Forest, Soft Voting y Stacking— para la detección de spam en SMS, correo electrónico y comentarios, sobre cinco conjuntos de datos heterogéneos en inglés y turco, evaluados con F1-score mediante validación cruzada.
 
 `Python` · `scikit-learn` · `pandas` · `machine learning` · `seguridad`
@@ -52,14 +54,15 @@ En total, **15.728 mensajes**. Los cinco ficheros están en `data/` y proceden d
 ```
 .
 ├── notebooks/
-│   ├── CÓDIGO TESIS A-J.ipynb              # pipeline completo
-│   ├── anexos_tesis.ipynb                  # análisis descriptivo de los corpus
-│   └── COMPARACIONES_GLOBALES_notebook.ipynb # comparativas y figuras
-├── data/                                   # los cinco conjuntos (públicos)
+│   ├── 01_codigo_tesis.ipynb                  # pipeline completo
+│   ├── anexos_tesis.ipynb                     # análisis descriptivo de los corpus
+│   └── COMPARACIONES_GLOBALES_notebook.ipynb  # comparativas y figuras
+├── data/                                      # los cinco conjuntos (públicos)
 ├── results/
-│   ├── f1_modelo_dataset.csv               # tabla de resultados en formato largo
-│   └── datasets_resumen.csv                # características de los corpus
+│   ├── f1_modelo_dataset.csv                  # tabla de resultados en formato largo
+│   └── datasets_resumen.csv                   # características de los corpus
 ├── requirements.txt
+├── CITATION.cff
 ├── LICENSE
 └── README.md
 ```
@@ -75,12 +78,27 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-## Autor
+## Autores
+
+Trabajo de diploma realizado por los dos autores principales del proyecto, en la Facultad de Ciberseguridad de la Universidad de las Ciencias Informáticas (UCI).
 
 **Jayson Ceballos Hernández** — Ingeniero en Ciberseguridad (UCI, 2026)
 
 - LinkedIn: [linkedin.com/in/jayson-ceballos-hernández-2b6783391](https://linkedin.com/in/jayson-ceballos-hernández-2b6783391)
 - Correo: jaysoncybersecurity@gmail.com
+
+**Alejandro Vázquez Marrero** — Ingeniero en Ciberseguridad (UCI, 2026)
+
+- LinkedIn: [linkedin.com/in/alejandro-vázquez-a75b1a432](https://www.linkedin.com/in/alejandro-v%C3%A1zquez-a75b1a432/)
+- Correo: alejandrociberedit@gmail.com
+
+## Cómo citar
+
+```
+Ceballos Hernández, J. y Vázquez Marrero, A. (2026). Detección de spam con machine learning:
+comparación de modelos sobre cinco conjuntos de datos. Universidad de las Ciencias Informáticas (UCI).
+https://github.com/JaysonCeballos/tesis-deteccion-spam
+```
 
 ## Licencia
 
@@ -90,4 +108,4 @@ Código bajo licencia MIT (ver [LICENSE](LICENSE)). Cada conjunto de datos conse
 
 ## English summary
 
-BSc thesis comparing five supervised classifiers —Naive Bayes, SVM with RBF kernel, Random Forest, soft voting and stacking— for spam detection across five heterogeneous public datasets (SMS, email and comment corpora in English and Turkish). Every cell is a cross-validated F1 mean ± standard deviation on the spam class, chosen over accuracy because of class imbalance. Stacking gave the best average F1 (0.952); the spread across corpora (0.894–0.986) was larger than the spread across models, showing that the dataset matters more than the algorithm.
+BSc thesis by **Jayson Ceballos Hernández** and **Alejandro Vázquez Marrero** comparing five supervised classifiers —Naive Bayes, SVM with RBF kernel, Random Forest, soft voting and stacking— for spam detection across five heterogeneous public datasets (SMS, email and comment corpora in English and Turkish). Every cell is a cross-validated F1 mean ± standard deviation on the spam class, chosen over accuracy because of class imbalance. Stacking gave the best average F1 (0.952); the spread across corpora (0.894–0.986) was larger than the spread across models, showing that the dataset matters more than the algorithm.
