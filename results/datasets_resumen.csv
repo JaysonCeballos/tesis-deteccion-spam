@@ -1,0 +1,6 @@
+dataset,dominio,idioma,mensajes,porcentaje_spam,tipo_entrada,origen
+sms_spam,SMS,EN,5169,12.63,texto crudo,UCI SMS Spam Collection
+spambase,Correo,,4601,39.40,numerico (57 rasgos),UCI Spambase
+youtube_shakira,Comentarios,EN,331,45.32,texto crudo,Kaggle
+trspam,Correo,TR,634,35.17,texto crudo,TurkishSpam (Kaggle)
+spam_ham_email,Correo,EN,4993,29.28,texto crudo,Kaggle
