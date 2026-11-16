@@ -86,7 +86,7 @@ Trabajo de diploma realizado por los dos autores principales del proyecto, en la
 
 **Jayson Ceballos Hernández** — Ingeniero en Ciberseguridad (UCI, 2026)
 
-- LinkedIn: [linkedin.com/in/jayson-ceballos-hernández-2b6783391](https://linkedin.com/in/jayson-ceballos-hernández-2b6783391)
+- LinkedIn: [linkedin.com/in/jayson-ceballos03](https://linkedin.com/in/jayson-ceballos03)
 - Correo: jaysoncybersecurity@gmail.com
 
 **Alejandro Vázquez Marrero** — Ingeniero en Ciberseguridad (UCI, 2026)
