@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si usas este trabajo, cítalo así:"
+title: "Detección de spam con machine learning: comparación de modelos sobre cinco conjuntos de datos"
+type: software
+authors:
+  - family-names: Ceballos Hernández
+    given-names: Jayson
+    email: jaysoncybersecurity@gmail.com
+    affiliation: Universidad de las Ciencias Informáticas (UCI)
+  - family-names: Vázquez Marrero
+    given-names: Alejandro
+    email: alejandrociberedit@gmail.com
+    affiliation: Universidad de las Ciencias Informáticas (UCI)
+repository-code: "https://github.com/JaysonCeballos/tesis-deteccion-spam"
+url: "https://github.com/JaysonCeballos/tesis-deteccion-spam"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-16
+keywords:
+  - spam detection
+  - machine learning
+  - phishing
+  - cybersecurity
+  - scikit-learn
