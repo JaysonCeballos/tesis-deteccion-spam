@@ -1,0 +1,28 @@
+# Entornos y secretos
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Modelos, vectores y datos procesados: pesados y regenerables
+*.pkl
+*.joblib
+*.h5
+models/
+vectors/
+processed/
+
+# Sistema
+.DS_Store
+Thumbs.db
