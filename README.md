@@ -91,7 +91,7 @@ Trabajo de diploma realizado por los dos autores principales del proyecto, en la
 
 **Alejandro Vázquez Marrero** — Ingeniero en Ciberseguridad (UCI, 2026)
 
-- LinkedIn: [linkedin.com/in/alejandro-vázquez-a75b1a432](https://www.linkedin.com/in/alejandro-v%C3%A1zquez-a75b1a432/)
+- LinkedIn: [linkedin.com/in/alejandro-vazquez-tb](https://www.linkedin.com/in/alejandro-vazquez-tb)
 - Correo: alejandrociberedit@gmail.com
 
 ## Cómo citar
